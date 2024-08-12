@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Calculator</title>
+    <link rel="stylesheet" href="math.css">
+</head>
+<body>
+    <h1>Mathematical Calculator- M22W7332 HASAN MAHMUDUL</h1>
+    <div class="calculator">
+        <label for="num1">Enter the first number:</label>
+        <input type="text" id="num1">
+        <br>
+        <label for="num2">Enter the second number:</label>
+        <input type="text" id="num2">
+        <br>
+        <label for="operation">Choose an operation:</label>
+        <select id="operation">
+            <option value="add">Addition (+)</option>
+            <option value="subtract">Subtraction (-)</option>
+            <option value="multiply">Multiplication (*)</option>
+            <option value="divide">Division (/)</option>
+            <option value="exponent">Exponentiation (^)</option>
+            <option value="sqrt">Square Root (√)</option>
+            <option value="log">Logarithm (log)</option>
+        </select>
+        <br>
+        <button onclick="calculate()">Calculate</button>
+        <p id="result"></p>
+    </div>
+    <script src="math.js"></script>
+</body>
+</html>
